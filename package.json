@@ -1,0 +1,30 @@
+{
+  "name": "react-diff-x",
+  "version": "0.0.5",
+  "description": "react-diff",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "tslint": "5.10.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/common-ts/react-diff-x"
+  },
+  "keywords": [
+    "react-diff",
+    "react-diff-x"
+  ]
+}
